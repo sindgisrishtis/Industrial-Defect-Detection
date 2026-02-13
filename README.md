@@ -260,6 +260,10 @@ Run (headless mode):
 docker run -e HEADLESS=1 industrial-defect-app
 ```
 
+```bash
+docker run -e HEADLESS=1 industrial-defect-app --video results/demo_inspection_video.mp4
+```
+
 ---
 
 ## ⚠ Limitations

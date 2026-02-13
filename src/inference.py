@@ -30,7 +30,8 @@ transform = transforms.Compose([
 
 def load_model():
     model = DefectCNN(num_classes=len(CLASS_NAMES)).to(DEVICE)
-    model.load_state_dict(torch.load(MODEL_PATH))
+    model.load_state_dict(torch.load(MODEL_PATH, map_location=torch.device("cpu")))
+
     model.eval()
     return model
 
