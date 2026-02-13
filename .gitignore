@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+data/NEU-DET/
+results/defects/
+results/detection_log.csv
+results/demo_inspection_video.mp4
