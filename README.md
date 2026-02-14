@@ -266,6 +266,16 @@ docker run -e HEADLESS=1 industrial-defect-app --video results/demo_inspection_v
 
 ---
 
+## 📸 System Output
+
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
+
+### Defect Capture Example
+![Defect Capture](results/sample_defect_capture.png)
+
+---
+
 ## ⚠ Limitations
 
 - Classification-based (no bounding box localization)  
